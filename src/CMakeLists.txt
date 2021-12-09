@@ -1,1 +1,1 @@
-add_library(mylib STATIC functions.cpp)
+add_executable(functions functions.cpp)
