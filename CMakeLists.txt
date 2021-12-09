@@ -7,5 +7,5 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/dist)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/dist)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/dist)
 
-include_directories(SYSTEM ${CMAKE_SOURCE_DIR}/mozjpeg/include)
+include_directories(SYSTEM ${CMAKE_SOURCE_DIR}/mozjpeg-dist/include)
 add_subdirectory(src)
