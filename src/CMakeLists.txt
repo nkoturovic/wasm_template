@@ -1,1 +1,1 @@
-add_library(arty-jpeg STATIC functions.cpp)
+add_library(mylib STATIC functions.cpp)
